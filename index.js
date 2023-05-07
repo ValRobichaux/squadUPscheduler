@@ -14,7 +14,7 @@ const client = new Client({
 });
 
 client.on('ready',() => {
-    console.log('The bot is ready')
+    console.log('Scheduler is running')
 })
 client.on('messageCreate',message => {
     if (message.content === 'ping') {
